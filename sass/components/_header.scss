@@ -1,0 +1,27 @@
+@import "../base/variables";
+
+header {
+    @include flex (flex, center, space-between);
+    height: 18vh;
+    .navbar {
+        width: 100%;
+        border: 5px;
+        h1 {
+            font-size: 2rem;
+            color: $font-color-dark;
+            font-weight: lighter;
+            span {
+                font-weight: bold;
+                color: $bg-color;
+            }
+        }
+        .nav-link {
+            font-size: 1rem;
+            font-weight: bold;
+            color: $font-color-dark;
+            &:hover {
+                color: $bg-color;
+            }
+        }
+    }
+}
