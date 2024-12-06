@@ -63,4 +63,9 @@ footer p {
   padding: 14px;
   text-align: center;
   font-weight: bold;
+}
+
+.carousel-inner {
+  height: 81vh;
+  margin: 10px 0px;
 }/*# sourceMappingURL=styles.css.map */
