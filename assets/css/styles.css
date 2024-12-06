@@ -1,1 +1,66 @@
-/*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+::selection {
+  background-color: rgba(128, 128, 128, 0.3764705882);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 18vh;
+}
+header .navbar {
+  width: 100%;
+  border: 5px;
+}
+header .navbar h1 {
+  font-size: 2rem;
+  color: #353434;
+  font-weight: lighter;
+}
+header .navbar h1 span {
+  font-weight: bold;
+  color: #931A25;
+}
+header .navbar .nav-link {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #353434;
+}
+header .navbar .nav-link:hover {
+  color: #931A25;
+}
+
+footer {
+  width: 100%;
+  background: #931A25;
+  color: #F5EFEF;
+}
+footer .redes-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .redes-sociales img {
+  margin: 15px 10px;
+}
+footer p {
+  font-size: 1rem;
+  padding: 14px;
+  text-align: center;
+  font-weight: bold;
+}/*# sourceMappingURL=styles.css.map */

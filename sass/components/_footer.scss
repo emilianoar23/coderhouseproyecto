@@ -1,0 +1,21 @@
+@import "../base/variables";
+
+footer {
+    width: 100%;
+    background: $bg-color;
+    color: $font-color;
+    .redes-sociales {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            margin: 15px 10px;
+        }
+    }
+    p {
+        font-size: 1rem;
+        padding: 14px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
